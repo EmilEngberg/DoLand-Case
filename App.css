@@ -1,0 +1,89 @@
+.App {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+  background-color: aqua;
+  padding: 40px;
+  border-radius: 20px;
+
+  font-family: Trebuchet MS,sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: rgb(40, 40, 40); 
+}
+
+.itemList {
+  display: flex;
+  text-align: left;
+  gap: 60px;
+  margin-top: 40px;
+  font-size: 18px; 
+}
+
+.investmentForm input{
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.addButton {
+  text-align: center;
+  border: 1px solid gray;
+  width: 50px;
+  margin: 20px;
+  background-color: white;
+  color: rgb(45, 45, 45);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.deleteButton {
+    text-align: center;
+    border: 1px solid gray;
+    width: 70px;
+    background-color: white;
+    color: rgb(45, 45, 45);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
